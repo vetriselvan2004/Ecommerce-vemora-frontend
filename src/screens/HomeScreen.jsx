@@ -24,7 +24,10 @@ function HomeScreen() {
       <div id='intro-cont'>  
           <h1>Welcome to Your Favorite Store</h1> 
           <p>Discover the latest trends with our modern collection</p>  
-          <button className="btn btn-light"><a href='#pro'>Shop now</a></button>
+          <div className='btn'>
+          <button className="btn btn-light"><a href='/login'>Login</a></button>
+          <button className="btn btn-warning"><a href='/cart'>My cart</a></button>
+          </div>
       </div>
       </div>
       {loading ? <Loader/> 
