@@ -13,6 +13,7 @@
   "dependencies": {
     "@paypal/react-paypal-js": "^8.8.2",
     "@redux-devtools/extension": "^3.3.0",
+    "@rollup/rollup-linux-x64-gnu": "^4.34.8",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "caniuse-lite": "^1.0.30001700",
